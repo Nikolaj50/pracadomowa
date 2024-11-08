@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+       <head>
+              <meta charset="utf-8">
+              <title>Mishchenko Mikolai</title>
+       </head>
+       <body>
+       Tu będzie formularz
+	   <src="https://planradar-website.s3.amazonaws.com/production/uploads/2024/02/CREAT-2523_Customer_Guide_Animation_01.gif" border=0 width=70 height=50>formularz
+	   
+	   
+	   <p><A HREF="index.html"> Wróć </A>
+	   </body>
+    <h1>Formularz nowego zawodnika w drużynie piłkarskiej</h1>
+    <form>
+        <label for="imie">Imię:</label>
+        <input type="text" id="imie" name="imie"><br><br>
+
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" id="nazwisko" name="nazwisko"><br><br>
+
+        <label for="data_urodzenia">Data urodzenia:</label>
+        <input type="date" id="data_urodzenia" name="data_urodzenia"><br><br>
+
+        <p>1. Obywatelstwo:</p>
+        <input type="radio" id="polskie" name="obywatelstwo" value="polskie">
+        <label for="polskie">Polskie</label><br>
+        <input type="radio" id="inne" name="obywatelstwo" value="inne">
+        <label for="inne">Inne</label><br><br>
+        <label for="pesel">2. Numer PESEL / Numer paszportu:</label>
+        <input type="text" id="pesel" name="pesel" maxlength="11" placeholder="11 liter/Gfxxxxx"><br><br>
+
+        <label for="wojewodztwo">3. Województwo:</label>
+        <select id="wojewodztwo" name="wojewodztwo">
+            <option value="mazowieckie">Mazowieckie</option>
+            <option value="slaskie">Śląskie</option>
+            <option value="wielkopolskie">Wielkopolskie</option>
+			<option value="pomorskie">Pomorskie</option>
+			<option value="podkapackie">Podkapackie</option>
+			<option value="lodzkie">Lodzkie</option>
+			<option value="opolskie">Opolskie</option>
+			<option value="zachodniopomorskie">Zachodniopomorskie</option>
+            <!-- Dodaj inne województwa -->
+        </select><br><br>
+
+        <label for="miasto">4. Miasto:</label>
+        <select id="miasto" name="miasto">
+            <option value="warszawa">Warszawa</option>
+            <option value="krakow">Kraków</option>
+            <option value="lodz">Łódź</option>
+			<option value="gdansk">Gdańsk</option>
+			<option value="szczecin">Szczecin</option>
+			<option value="wroclaw">Wrocław</option>
+			<option value="rzeszow">Rzeszów</option>
+			<option value="poznan">Poznań</option>
+			<option value="opole">Opole</option>
+            <!-- Dodaj inne miasta -->
+        </select><br><br>
+
+        <label for="ulica">5. Ulica:</label>
+        <input type="text" id="nr_ulicy" name="nr_ulicy"><br><br>
+            <!-- Dodaj inne ulice -->
+        </select><br><br>
+
+        <label for="nr_lokalu">6. Nr lokalu:</label>
+        <input type="text" id="nr_lokalu" name="nr_lokalu"><br><br>
+
+        <label for="adres_email">7. Adres mail:</label>
+        <input type="email" id="adres_email" name="adres_email"><br><br>
+
+        <label for="druzyna">8. Drużyna, w której grasz:</label>
+        <input type="text" id="druzyna" name="druzyna"><br><br>
+
+        <label for="kraj">9. Kraj:</label>
+        <select id="kraj" name="kraj">
+            <option value="polska">Polska</option>
+            <option value="inne">Inne</option>
+        </select><br><br>
+
+        <p>10. Płeć:</p>
+        <input type="radio" id="mezczyzna" name="plec" value="mezczyzna">
+        <label for="mezczyzna">Mężczyzna</label><br>
+        <input type="radio" id="dziewczyna" name="plec" value="dziewczyna">
+        <label for="dziewczyna">Dziewczyna</label><br>
+        <input type="radio" id="inne" name="plec" value="inne">
+        <label for="inne">Inne</label><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <p>Mikołaj Mishchenko 1P</p>
+</body>
+</html>
